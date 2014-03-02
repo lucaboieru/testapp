@@ -1,0 +1,21 @@
+{
+    "appID": "testapp",
+    "domains": [
+        "test.luda.com"
+    ],
+	"routes": {
+		"/": "index",
+		"/aboutus": "aboutus"
+	},
+	"pages": {
+		"index": {
+			"html": "public/html/index.html"
+		},
+        "get": {
+            "html": "public/html/get.html"
+        },
+		"not_found": {
+			"html": "public/html/fourohfour.html"
+		}
+	}
+}
